@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: fedd3ab4e10606549a3aad74486a4e0c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 47
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plataforma terminada_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e022e85b0426bb94dafac6905afa8992
+      internalID: -190139502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b4347f84f114b4b877e1a352b37e7a
+      internalID: 250660412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e348dc94affdca14585f046e37df6f79
+      internalID: -2041717146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6df5ea5bb11364449eef09709225a98
+      internalID: -1536379754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055596ee3f61902408790f7a8bbb6868
+      internalID: -1854397725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7df5934bc99bb4f8563c1f057134c0
+      internalID: -226489421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d2f7d081317c42951348fd2b4eb9f
+      internalID: -1009393058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d57436b35622eb48bdf36f1757b36af
+      internalID: 1196840353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defae79d466c56440b334b6d9526c60d
+      internalID: 1455880764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 243
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e0de5b4dcba04bb831e353dbb36e5
+      internalID: -453719708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a6be2cca343de49b8c4b077f5637e4
+      internalID: -791549557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2fcc930e2001e4aaec894dbec46701
+      internalID: -940349072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0692179a3b9818146a4af22f39215fcf
+      internalID: -1568645938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c33f8f7517e3547a40146344c298c2
+      internalID: -813945346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b7c9e7b61750469f5f21f6831211f
+      internalID: -1535154586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b854025b52b950459ac9c8356ddda4c
+      internalID: 2020615151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e1932adc8626d4a8e1793dc8e1c255
+      internalID: -1207528306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c2866e0ecf8546b54dcbae0e1be09
+      internalID: 55204036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3379ce2c6a92e784595359c5c91fbaaf
+      internalID: 116376148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 195
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398e2a046cdcafe48bd32a221e1614a2
+      internalID: 2127347424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3b7b14fbc40ae42a9d840e8f479cc5
+      internalID: -1526959497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348e35cf8c61d1a4fab3c7471809f785
+      internalID: -1512012963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58b297d984d3c4388bfb9e12732a8a
+      internalID: -1079558946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a8cb55c04df2443bd97110c201e7fc
+      internalID: -1432046162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd6710e1d7d6e0459cd12a122a82be7
+      internalID: -296284894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebb426e1d3811a45a6cf23ed94c4ce1
+      internalID: -1289067139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72d421c73e742d49a7a961c847eacaf
+      internalID: -1609423786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807bcdf8d3d002d4baec8db8ac14241c
+      internalID: 563912184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841aa64213e00cc42b554fb5df0d01a8
+      internalID: -1000450844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 147
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42a314af8d2cd448925725c5ffba9e5
+      internalID: 535660723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c7f09acd92da43a66bbf0972ffa8a
+      internalID: 615271702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99483766ed88c854b826040784ea0a1f
+      internalID: -29112299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9edc8ccf98344488448cf9c67cbe90
+      internalID: -1832676733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2edcffb47fab2408ed59cb267e0981
+      internalID: -609064802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d87010becaf8c4c8de03fae0a018f5
+      internalID: -143862390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8ce5803ebda65448e378cfd79df7fd
+      internalID: -336701103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff2dade240b5f4a9ffbb118fd973e8
+      internalID: -968743558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91945a838451f6c40989502e968ad60d
+      internalID: -1902838199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e645896470ff4ebb6ff2b0b4cb7d2
+      internalID: 1654869453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33406cecc51da05478490429147871d4
+      internalID: -1708311384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66141801ab70984f9dacdac44cfd476
+      internalID: -517484420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee675678e8387a4badcec1bc584d67f
+      internalID: -1913580918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0cf4b6f7a1b84a8695cf2f26aaec1
+      internalID: 1801661826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3bd024b2438f4299cb1abea2438c9
+      internalID: -68452967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a78b0ef380c8478f1576b0bc783c5
+      internalID: 779132811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7520d5af7f7f594783527f0abdd4ef4
+      internalID: -758412110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8786014c7c0eb4d8c94b72e9331a0f
+      internalID: -1703595568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba751caa42d77945a0586401918fb45
+      internalID: -463113618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d4b9d63cdfd9b4bb1c9c059c151858
+      internalID: 1100957202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_49
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 51
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e23da0b084270146b7e5391f9e0cfdb
+      internalID: 541373310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ec316208b0af4fb052173945314d1
+      internalID: -1528259777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a522af58e6f29394ba299a4205d2b477
+      internalID: -424252062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa37f0aa44e9b6c419cab51ddab5cc96
+      internalID: 576400532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37789312997ea2047a1d42216d1ee8db
+      internalID: 1894811074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataforma terminada_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e103a1ef46174d9c54344c6237de3
+      internalID: 1452811548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Plataforma terminada_0: -190139502
+      Plataforma terminada_1: 250660412
+      Plataforma terminada_10: -791549557
+      Plataforma terminada_11: -940349072
+      Plataforma terminada_12: -1568645938
+      Plataforma terminada_13: -813945346
+      Plataforma terminada_14: -1535154586
+      Plataforma terminada_15: 2020615151
+      Plataforma terminada_16: -1207528306
+      Plataforma terminada_17: 55204036
+      Plataforma terminada_18: 116376148
+      Plataforma terminada_19: 2127347424
+      Plataforma terminada_2: -2041717146
+      Plataforma terminada_20: -1526959497
+      Plataforma terminada_21: -1512012963
+      Plataforma terminada_22: -1079558946
+      Plataforma terminada_23: -1432046162
+      Plataforma terminada_24: -296284894
+      Plataforma terminada_25: -1289067139
+      Plataforma terminada_26: -1609423786
+      Plataforma terminada_27: 563912184
+      Plataforma terminada_28: -1000450844
+      Plataforma terminada_29: 535660723
+      Plataforma terminada_3: -1536379754
+      Plataforma terminada_30: 615271702
+      Plataforma terminada_31: -29112299
+      Plataforma terminada_32: -1832676733
+      Plataforma terminada_33: -609064802
+      Plataforma terminada_34: -143862390
+      Plataforma terminada_35: -336701103
+      Plataforma terminada_36: -968743558
+      Plataforma terminada_37: -1902838199
+      Plataforma terminada_38: 1654869453
+      Plataforma terminada_39: -1708311384
+      Plataforma terminada_4: -1854397725
+      Plataforma terminada_40: -517484420
+      Plataforma terminada_41: -1913580918
+      Plataforma terminada_42: 1801661826
+      Plataforma terminada_43: -68452967
+      Plataforma terminada_44: 779132811
+      Plataforma terminada_45: -758412110
+      Plataforma terminada_46: -1703595568
+      Plataforma terminada_47: -463113618
+      Plataforma terminada_48: 1100957202
+      Plataforma terminada_49: 541373310
+      Plataforma terminada_5: -226489421
+      Plataforma terminada_50: -1528259777
+      Plataforma terminada_51: -424252062
+      Plataforma terminada_52: 576400532
+      Plataforma terminada_53: 1894811074
+      Plataforma terminada_54: 1452811548
+      Plataforma terminada_6: -1009393058
+      Plataforma terminada_7: 1196840353
+      Plataforma terminada_8: 1455880764
+      Plataforma terminada_9: -453719708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
