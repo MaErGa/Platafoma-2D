@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float Life;
     public PlayerStats playerStats;
     public Animator anim;
+    //  public ResetLevel resetLevel;
+    public GameObject reset;
 
     void Start()
     {
@@ -56,8 +58,10 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
         gameObject.SetActive(false);
+        reset.SetActive(true);
         Debug.Log("me mori");
         //añadir menu de volver a jugar
+
     }
 
     public void Shoot()
