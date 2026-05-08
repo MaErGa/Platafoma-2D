@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,55 +15,66 @@ public class PlayerController : MonoBehaviour
     public float Life;
     public PlayerStats playerStats;
     public Animator anim;
-    //  public ResetLevel resetLevel;
-    public GameObject reset;
+
+    private SpriteRenderer spr;
+
+    [Header("Game Over")]
+    public ResetLevel resetLevel;
+
+    [Header("Sistema de Munición")]
+    public int municionMax = 10;
+    public int municionActual;
+    private bool estaRecargando = false;
 
     void Start()
     {
         playerb = GetComponent<Rigidbody2D>();
+        spr = GetComponent<SpriteRenderer>();
         Life = playerStats.MaxLife;
         speed = playerStats.Speed;
         speedJump = playerStats.SpeedJump;
+
+        municionActual = municionMax;
     }
 
     void Update()
     {
-        inputMovimiento = Input.GetAxis("Horizontal");
         IsGrounded = gc.IsGrounded();
-
-        // Flip del sprite
-        if (inputMovimiento < 0)
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
-        else if (inputMovimiento > 0)
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
-
-        // Animacion
-        anim.SetBool("Walking", inputMovimiento != 0);
+        ProcesarMovimiento();
 
         if (Life <= 0) Die();
 
-        if (Input.GetMouseButtonDown(0)) Shoot();
-    }
-
-    void FixedUpdate()
-    {
-        // Movimiento horizontal
-        playerb.velocity = new Vector2(inputMovimiento * speed, playerb.velocity.y);
-
-        // Salto
-        if (Input.GetKey("space") && gc.IsGrounded())
+        // Satlar con barra espaciadora
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
-            playerb.AddForce(transform.up * speedJump, ForceMode2D.Impulse);
+            playerb.velocity = new Vector2(playerb.velocity.x, speedJump);
+        }
+
+        
+        if (Input.GetMouseButtonDown(0) && !estaRecargando && municionActual > 0)
+        {
+            Shoot();
+        }
+
+        // Recarga automatica de balas al desaparecer las balas de la scene
+        if (municionActual <= 0 && !estaRecargando)
+        {
+            StartCoroutine(Recargar());
         }
     }
 
-    public void Die()
+    void ProcesarMovimiento()
     {
-        gameObject.SetActive(false);
-        reset.SetActive(true);
-        Debug.Log("me mori");
-        //añadir menu de volver a jugar
+        inputMovimiento = Input.GetAxis("Horizontal");
+        playerb.velocity = new Vector2(inputMovimiento * speed, playerb.velocity.y);
+        anim.SetBool("Walking", true);
 
+        if (inputMovimiento < 0)
+            spr.flipX = true;
+        else if (inputMovimiento > 0)
+            spr.flipX = false;
+
+        if (inputMovimiento == 0) anim.SetBool("Walking", false);
     }
 
     public void Shoot()
@@ -69,10 +82,38 @@ public class PlayerController : MonoBehaviour
         GameObject bullet = BulletPool.SharedInstance.GetPooledObject();
         if (bullet != null)
         {
-            bullet.transform.position = playerb.transform.position;
+            // Disparo segun direccion del jugador
+            float offset = spr.flipX ? -0.7f : 0.7f;
+            bullet.transform.position = transform.position + new Vector3(offset, 0, 0);
             bullet.transform.rotation = playerb.transform.rotation;
+
             if (Time.timeScale != 0)
+            {
+                municionActual--;
                 bullet.SetActive(true);
+            }
         }
+    }
+
+    IEnumerator Recargar()
+    {
+        estaRecargando = true;
+        yield return null; 
+        municionActual = municionMax;
+        estaRecargando = false;
+        Debug.Log("¡RECARGA COMPLETADA!");
+    }
+
+    public void Die()
+    {
+        Debug.Log("me mori");
+        gameObject.SetActive(false);
+        if (resetLevel != null)
+            resetLevel.MostrarBoton();
+    }
+
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
