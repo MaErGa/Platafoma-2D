@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxLife: 50
   Speed: 6
-  SpeedJump: 8
+  SpeedJump: 9
   Damage: 0
