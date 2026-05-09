@@ -41,6 +41,8 @@ public class PlayerController : MonoBehaviour
     {
         IsGrounded = gc.IsGrounded();
         ProcesarMovimiento();
+        
+        Debug.Log("Life: " + Life);
 
         if (Life <= 0) Die();
 
@@ -104,16 +106,13 @@ public class PlayerController : MonoBehaviour
         Debug.Log("¡RECARGA COMPLETADA!");
     }
 
-    public void Die()
+   public void Die()
     {
         Debug.Log("me mori");
-        gameObject.SetActive(false);
         if (resetLevel != null)
-            resetLevel.MostrarBoton();
+            resetLevel.MostrarBoton(); 
+        gameObject.SetActive(false);  
     }
-
-    public void Reiniciar()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }
+

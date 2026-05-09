@@ -7,12 +7,27 @@ public class ResetLevel : MonoBehaviour
 
     void Start()
     {
-        Reset.SetActive(false); // Oculto al inicio
+        if (Reset != null)
+        {
+            Reset.SetActive(false); 
+        }
+        else
+        {
+            Debug.LogError("¡ERROR! No has asignado el objeto del Botón en el script ResetLevel de " + gameObject.name);
+        }
     }
 
     public void MostrarBoton()
     {
-        Reset.SetActive(true); // Se llama cuando el jugador muere
+        if (Reset != null)
+        {
+            Reset.SetActive(true);
+            Debug.Log("El botón debería estar visible ahora.");
+        }
+        else
+        {
+            Debug.LogError("Intentaste mostrar el botón, pero la variable 'Reset' está vacía.");
+        }
     }
 
     public void Restart()
